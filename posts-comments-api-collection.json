@@ -1,0 +1,78 @@
+{
+  "name": "Posts & Comments API",
+  "requests": [
+    {
+      "name": "GET /posts - Listar todos",
+      "method": "GET",
+      "url": "http://localhost:3000/posts"
+    },
+    {
+      "name": "GET /posts/:id - Obtener uno",
+      "method": "GET",
+      "url": "http://localhost:3000/posts/ID_AQUI"
+    },
+    {
+      "name": "POST /posts - Crear post",
+      "method": "POST",
+      "url": "http://localhost:3000/posts",
+      "body": {
+        "title": "Nuevo post",
+        "body": "Contenido del post con más de 10 caracteres",
+        "author": "Usuario"
+      }
+    },
+    {
+      "name": "PUT /posts/:id - Editar post",
+      "method": "PUT",
+      "url": "http://localhost:3000/posts/ID_AQUI",
+      "body": {
+        "title": "Post editado",
+        "body": "Contenido editado con más de 10 caracteres",
+        "author": "Usuario Editado"
+      }
+    },
+    {
+      "name": "DELETE /posts/:id - Eliminar post",
+      "method": "DELETE",
+      "url": "http://localhost:3000/posts/ID_AQUI"
+    },
+    {
+      "name": "POST /posts/bulk - Carga masiva",
+      "method": "POST",
+      "url": "http://localhost:3000/posts/bulk",
+      "body": [
+        {
+          "title": "Post masivo 1",
+          "body": "Contenido del primer post masivo con más de 10 caracteres",
+          "author": "Admin"
+        },
+        {
+          "title": "Post masivo 2",
+          "body": "Contenido del segundo post masivo con más de 10 caracteres",
+          "author": "Admin"
+        }
+      ]
+    },
+    {
+      "name": "GET /comments?postId=ID - Listar comentarios",
+      "method": "GET",
+      "url": "http://localhost:3000/comments?postId=ID_AQUI"
+    },
+    {
+      "name": "POST /comments - Crear comentario",
+      "method": "POST",
+      "url": "http://localhost:3000/comments",
+      "body": {
+        "postId": "ID_DEL_POST_AQUI",
+        "name": "Usuario Comentario",
+        "email": "usuario@email.com",
+        "body": "Este es el contenido del comentario"
+      }
+    },
+    {
+      "name": "DELETE /comments/:id - Eliminar comentario",
+      "method": "DELETE",
+      "url": "http://localhost:3000/comments/ID_AQUI"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Introducción a NestJS",
+    "body": "NestJS es un framework para construir aplicaciones Node.js escalables y eficientes. Utiliza TypeScript y combina elementos de OOP, FP y FRP.",
+    "author": "Carlos Rodríguez"
+  },
+  {
+    "title": "MongoDB con Mongoose",
+    "body": "Mongoose es una librería de modelado de objetos MongoDB para Node.js. Proporciona una solución basada en esquemas para modelar los datos.",
+    "author": "Ana Martínez"
+  },
+  {
+    "title": "Angular 18 y Signals",
+    "body": "Angular 18 introduce signals como una nueva forma de manejar el estado reactivo, mejorando el rendimiento y la predictibilidad de las aplicaciones.",
+    "author": "Luis Fernández"
+  },
+  {
+    "title": "Buenas prácticas en APIs REST",
+    "body": "Una API REST bien diseñada debe ser intuitiva, segura y eficiente. Usa los códigos de estado HTTP correctamente y sigue las convenciones de nombrado.",
+    "author": "María Gómez"
+  },
+  {
+    "title": "Control de versiones con Git",
+    "body": "Git es esencial para el desarrollo colaborativo. Aprende a hacer commits atómicos, usar branches y resolver conflictos correctamente.",
+    "author": "Pedro Sánchez"
+  }
+]
