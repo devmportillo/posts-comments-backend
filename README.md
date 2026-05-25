@@ -15,7 +15,7 @@ TypeScript
 
 1. Clonar el repositorio
 bash
-git clone https://github.com/TU-USUARIO/posts-comments-backend.git
+git clone https://github.com/devmportillo/posts-comments-backend.git
 cd posts-comments-backend
 2. Instalar dependencias
 bash
